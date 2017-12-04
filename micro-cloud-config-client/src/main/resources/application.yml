@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: micro-cloud-config-client
+server:
+  port: 8020
+management:
+  security:
+    enabled: false
+

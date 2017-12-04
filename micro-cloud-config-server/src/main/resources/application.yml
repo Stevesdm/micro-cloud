@@ -1,0 +1,13 @@
+server:
+  port: 8021
+spring:
+  application:
+    name: micro-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://git.oschina.net/stevejobson/micro-cloud
+          search-paths: micro-cloud-config-repository
+          username: username
+          password: password
